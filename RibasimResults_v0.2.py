@@ -4,6 +4,7 @@ Created on Thu Sep 21 11:36:06 2023
 
 @author: vat
 @edit: Hosam
+    - added a loop over allcase folders, you have to add their numbers to the list.
 """
 
 import os
