@@ -2,6 +2,7 @@
 """
 Created on Thu Sep 21 11:36:06 2023
 
+this app now requires hisreader.py in the same dir to run.
 @author: vat
 @edit: Hosam
     - added a loop over all case folders, you have to add their numbers to the list.
