@@ -28,6 +28,8 @@ os.makedirs(os.path.dirname(respath), exist_ok=True)
 
 model = "c:\\Ribasim7\\A4I.rbd\\"
 
+
+# # Traverse the model  folder and find all case folders:
 cases = [i for i in range(99) if os.path.exists(model + str(i))]
 
 for case in cases:
@@ -106,7 +108,7 @@ for case in cases:
             # print(segnam, yieldval)
             wheat_yield += yieldval[0] * 1e-6
 
-
+    # # Setting some starting points to navigate text files:
     balfile_loc = 947
     sumfile_loc = 168
     airfile_loc = 30
