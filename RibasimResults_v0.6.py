@@ -154,13 +154,13 @@ for case in cases:
     sline += "Rice production (1000ton)    4,107        {:,.0f}\n".format(rice_yield)
     sline += "System efficiency (%)                     {:.1f}\n".format(sys_eff)
 
-    sline += "\n irrisup = " + str(irrisup)
-    sline += "\n irrretr = " + str(irrretr)
-    sline += "\n pwssupp = " + str(pwssupp)
-    sline += "\n pwsretr = " + str(pwsretr)
-    sline += "\n HAD_rel = " + str(HAD_rel)
-    sline += "\n gw_decr = " + str(gw_decr)
-    sline += "\n gw_incr = " + str(gw_incr)
+    # sline += "\n irrisup = " + str(irrisup)
+    # sline += "\n irrretr = " + str(irrretr)
+    # sline += "\n pwssupp = " + str(pwssupp)
+    # sline += "\n pwsretr = " + str(pwsretr)
+    # sline += "\n HAD_rel = " + str(HAD_rel)
+    # sline += "\n gw_decr = " + str(gw_decr)
+    # sline += "\n gw_incr = " + str(gw_incr)
 
 
 
