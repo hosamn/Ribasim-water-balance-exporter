@@ -11,6 +11,9 @@ import hisreader
 from datetime import datetime
 
 
+model = "c:\\Ribasim7\\A4I.rbd\\"
+
+
 # function to read word number wordn from line number linen in file filename
 def getvfrf(filename, linen, wordn):
     with open(filename, "rt") as file:
@@ -26,8 +29,6 @@ def getvfrf(filename, linen, wordn):
 currdir = os.path.dirname(os.path.abspath(__file__))
 respath = currdir + "\\results\\"
 os.makedirs(os.path.dirname(respath), exist_ok=True)
-
-model = "c:\\Ribasim7\\A4I.rbd\\"
 
 
 # # Traverse the model  folder and find all case folders:
@@ -81,8 +82,12 @@ for case in cases:
         if cu == 78:
             # Toska
             segnam = "Canal_361"
+        elif cu == 78:
+            # New Land Dab3a:########################################### what to do?! where are _reuse points??
+            segnam = "Canal_361"
         else:
             segnam = "LFlow_PWS_Dom_{}".format(cu)
+
         sal = wqrib.gettimeaverage(sysnam, segnam)
         # print(cu, segnam, sal)
         salaver += sal
